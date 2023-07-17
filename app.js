@@ -5,6 +5,7 @@ import dotenv from 'dotenv';
 const app = express();
 dotenv.config();
 
+console.log("run")
 
 app.get('/', function (req, res) {
     res.send('Hello World');
