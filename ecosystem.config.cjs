@@ -1,6 +1,6 @@
 module.exports = {
     apps: [{
-        name: "kallii-app",
+        name: "sam95link",
         script: "./app.js",
         env: {
             NODE_ENV: "development",
