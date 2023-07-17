@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "",
     "start": "pm2 start ecosystem.config.cjs --env production",
-    "kill": "pm2 kill"
+    "kill": "pm2 kill",
+    "kill2": "pm2 restart ecosystem.config.cjs"
   },
   "author": "umid",
   "license": "ISC",
